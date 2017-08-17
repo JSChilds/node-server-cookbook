@@ -4,7 +4,7 @@
 #
 # Copyright:: 2017, The Authors, All Rights Reserved.
 
-apt_update
+apt_update 'update'
 
 package 'nginx'
 service 'nginx' do
